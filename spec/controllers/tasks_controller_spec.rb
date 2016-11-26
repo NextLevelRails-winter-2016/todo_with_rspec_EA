@@ -1,6 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe TasksController, type: :controller do
+  let (:user) {create(:user)}
   let(:valid_attributes) {attributes_for(:vote)}
   let(:invalid_attributes) { attributes_for(:invalid_task) }
 

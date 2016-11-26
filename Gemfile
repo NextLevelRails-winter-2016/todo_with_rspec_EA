@@ -37,6 +37,8 @@ group :development, :test do
   gem 'capybara'
   gem 'factory_girl_rails'
   gem 'rails-controller-testing'
+  gem 'pry'
+  gem 'rb-readline'
 end
 
 group :development do
